@@ -37,7 +37,7 @@ class afo_fb_login {
 		<input type="hidden" name="option" value="login_widget_afo_save_settings" />
 		<table width="100%" border="0"> 
 		<tr>
-			<td colspan="2"><p>There is also a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="#" target="_blank">here</a> in <strong>USD 1.00</strong> </p></td>
+			<td colspan="2"><p>There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://donateafo.net84.net/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong> </p></td>
 		  </tr>
 		  <tr>
 			<td width="45%"><h1>Facebook Login Widget</h1></td>
