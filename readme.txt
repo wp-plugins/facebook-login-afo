@@ -14,20 +14,19 @@ This is a facebook login plugin as widget. This widget also supports default wor
 
 * This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
 
-<strong>Important</strong>
+= Important =
 
 You need create a new facebook API Applitation to setup this plugin. Please follow the instructions provided below.
 			
-* <strong>1.</strong> Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a>
-* <strong>2.</strong> Click on Create a new app button. A popup will open.
-* <strong>3.</strong> Add the required informations and don't forget to make your app live. This is very important otherwise your app will not work for all users.
-* <strong>4.</strong> Then Click the "Create App" button and follow the instructions, your new app will be created. 
-* <strong>5.</strong> Copy and Paste "App ID" and "App Secret" here.
-* <strong>6.</strong> That's All. Have fun :)
+<strong>1.</strong> Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a>
+<strong>2.</strong> Click on Create a new app button. A popup will open.
+<strong>3.</strong> Add the required informations and don't forget to make your app live. This is very important otherwise your app will not work for all users.
+<strong>4.</strong> Then Click the "Create App" button and follow the instructions, your new app will be created. 
+<strong>5.</strong> Copy and Paste "App ID" and "App Secret" here.
+<strong>6.</strong> That's All. Have fun :)
 
-<strong>Note</strong>
-
-* There is also a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="#" target="_blank">here</a> in <strong>USD 1.00</strong>
+= Note =
+There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://donateafo.net84.net/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong>
 
 == Installation ==
 
