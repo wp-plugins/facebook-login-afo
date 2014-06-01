@@ -26,6 +26,7 @@ You need create a new facebook API Applitation to setup this plugin. Please foll
 * <strong>6.</strong> That's All. Have fun :)
 
 <strong>Note</strong>
+
 * There is also a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="#" target="_blank">here</a> in <strong>USD 1.00</strong>
 
 == Installation ==
