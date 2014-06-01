@@ -1,0 +1,11 @@
+.error_wid_login {
+    background-color: #FFEBE8;
+    border: medium none #FF0000;
+    color: #FF0000;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    padding: 6px;
+    width: 97%;
+	clear:both !important;
+}
