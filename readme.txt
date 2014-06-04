@@ -1,4 +1,4 @@
-=== Login Widget With Shortcode ===
+=== Facebook Login Widget ===
 Contributors: avimegladon
 Donate link: http://donateafo.net84.net/
 Tags: facebook, fb, login, form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login
@@ -12,20 +12,20 @@ This is a facebook login plugin as widget. This widget also supports default wor
 
 == Description ==
 
-* This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
+* This is a facebook login plugin as widget. This widget also supports default wordpress user login. A facebook application API needs to be created to setup this plugin. Instructions are provided below.
 
 = Important =
 
 You need create a new facebook API Applitation to setup this plugin. Please follow the instructions provided below.
 			
-<strong>1.</strong> Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a>
-<strong>2.</strong> Click on Create a new app button. A popup will open.
-<strong>3.</strong> Add the required informations and don't forget to make your app live. This is very important otherwise your app will not work for all users.
-<strong>4.</strong> Then Click the "Create App" button and follow the instructions, your new app will be created. 
-<strong>5.</strong> Copy and Paste "App ID" and "App Secret" here.
-<strong>6.</strong> That's All. Have fun :)
+*  <strong>1.</strong> Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a>
+* <strong>2.</strong> Click on Create a new app button. A popup will open.
+* <strong>3.</strong> Add the required informations and don't forget to make your app live. This is very important otherwise your app will not work for all users.
+* <strong>4.</strong> Then Click the "Create App" button and follow the instructions, your new app will be created. 
+* <strong>5.</strong> Copy and Paste "App ID" and "App Secret" here.
+* <strong>6.</strong> That's All. Have fun :)
 
-= Note =
+= Facebook Login Widget (PRO) =
 There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://donateafo.net84.net/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong>
 
 == Installation ==
