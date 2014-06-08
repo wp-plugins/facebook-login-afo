@@ -28,6 +28,9 @@ You need create a new facebook API Applitation to setup this plugin. Please foll
 = Facebook Login Widget (PRO) =
 There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://donateafo.net84.net/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong>
 
+* The PRO version also comes with a content restriction Addon. Content of Pages and Posts can be hidden from visitors of your site.
+* Content Restriction can be applied from post edit page.
+
 == Installation ==
 
 
