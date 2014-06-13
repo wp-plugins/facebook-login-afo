@@ -113,7 +113,7 @@ function FBLogin(){
 	}
 	
 	public function register_plugin_styles() {
-		wp_enqueue_style( 'style_login_widget', plugins_url( 'fb-login-widget/style_login_widget.css' ) );
+		wp_enqueue_style( 'style_login_widget', plugins_url( 'facebook-login-afo/style_login_widget.css' ) );
 	}
 	
 } 

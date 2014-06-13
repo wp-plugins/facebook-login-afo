@@ -4,7 +4,7 @@ Donate link: http://donateafo.net84.net/
 Tags: facebook, fb, login, form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login
 Requires at least: 2.0.2
 Tested up to: 3.8.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,8 @@ There is a PRO version of this plugin that supports login with <strong>Facebook<
 
 * The PRO version also comes with a content restriction Addon. Content of Pages and Posts can be hidden from visitors of your site.
 * Content Restriction can be applied from post edit page.
+* Use Shortcode to use the plugin in post or page.
+* Easy css implementation from admin panel.
 
 == Installation ==
 
@@ -57,6 +59,10 @@ There is a PRO version of this plugin that supports login with <strong>Facebook<
 
 
 == Changelog ==
+
+
+= 1.0.2 =
+* css issue solved.
 
 = 1.0.1 =
 * this is the first release.
