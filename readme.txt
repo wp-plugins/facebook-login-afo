@@ -12,7 +12,7 @@ This is a facebook login plugin as widget. This widget also supports default wor
 
 == Description ==
 
-* This is a facebook login plugin as widget. This widget also supports default wordpress user login. A facebook application API needs to be created to setup this plugin. The setup is simple. Instructions are provided below.
+This is a facebook login plugin as widget. This widget also supports default wordpress user login. A facebook application API needs to be created to setup this plugin. The setup is simple. Instructions are provided below.
 
 = Important =
 
