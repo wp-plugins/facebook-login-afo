@@ -1,7 +1,7 @@
 === Facebook Login Widget ===
 Contributors: avimegladon
 Donate link: http://donateafo.net84.net/
-Tags: facebook, fb, login, form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login
+Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login
 Requires at least: 2.0.2
 Tested up to: 3.8.1
 Stable tag: 1.0.2
@@ -12,7 +12,7 @@ This is a facebook login plugin as widget. This widget also supports default wor
 
 == Description ==
 
-* This is a facebook login plugin as widget. This widget also supports default wordpress user login. A facebook application API needs to be created to setup this plugin. Instructions are provided below.
+* This is a facebook login plugin as widget. This widget also supports default wordpress user login. A facebook application API needs to be created to setup this plugin. The setup is simple. Instructions are provided below.
 
 = Important =
 
