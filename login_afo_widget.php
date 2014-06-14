@@ -50,15 +50,13 @@ class fb_login_wid extends WP_Widget {
 		<form name="login" id="login" method="post" action="">
 		<input type="hidden" name="option" value="afo_user_login" />
 		<input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
-			<ul style="list-style-type:none;">
+			<ul class="login_wid">
 			<li>Username</li>
 			<li><input type="text" name="user_username" required="required"/></li>
 			<li>Password</li>
 			<li><input type="password" name="user_password" required="required"/></li>
-			<li>&nbsp;</li>
 			<li><input name="login" type="submit" value="Login" /></li>
-			<li>&nbsp;</li>
-			<li><a href="javascript:void(0)" onClick="FBLogin();"><img src="<?php echo plugins_url( 'facebook.png' , __FILE__ );?>" alt="Fb Connect" title="Login with facebook" /></a></li>
+			<li><font size="+1" style="vertical-align:top;">Login with </font> <a href="javascript:void(0)" onClick="FBLogin();"><img src="<?php echo plugins_url( 'facebook.png' , __FILE__ );?>" alt="Fb Connect" title="Login with facebook" /></a></li>
 			</ul>
 		</form>
 		<?php 
@@ -67,7 +65,7 @@ class fb_login_wid extends WP_Widget {
      	get_currentuserinfo();
 		$link_with_username = 'Howdy, '.$current_user->display_name;
 		?>
-		<ul style="list-style-type:none;">
+		<ul class="login_wid">
 			<li><?php echo $link_with_username;?> | <a href="<?php echo wp_logout_url(site_url()); ?>" title="Logout">Logout</a></li>
 		</ul>
 		<?php 

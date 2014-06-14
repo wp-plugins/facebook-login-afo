@@ -9,3 +9,7 @@
     width: 97%;
 	clear:both !important;
 }
+
+.login_wid li{
+	margin:5px;
+}
