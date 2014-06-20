@@ -31,13 +31,9 @@ class afo_fb_login {
 		$afo_fb_app_secret = get_option('afo_fb_app_secret');
 		
 		$this->donate_form_facebook_login();
+		$this->fb_comment_addon_add();
+		$this->fb_login_pro_add();
 		?>
-		<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; padding:0px 0px 0px 10px; margin:2px;">
-  <tr>
-    <td><p>There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://donateafo.net84.net/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong> </p></td>
-  </tr>
-</table>
-
 		<form name="f" method="post" action="">
 		<input type="hidden" name="option" value="login_widget_afo_save_settings" />
 		<table width="100%" border="0"> 
@@ -83,6 +79,66 @@ class afo_fb_login {
 			  
 	<?php }
 	
+	function fb_comment_plugin_addon_options(){
+	global $wpdb;
+	$fb_comment_addon = new afo_fb_comment_settings;
+	$replace_wp_comments = get_option('replace_wp_comments');
+	$fb_comments_color_scheme = get_option('fb_comments_color_scheme');
+	$fb_comments_width = get_option('fb_comments_width');
+	$fb_comments_no = get_option('fb_comments_no');
+
+	?>
+	<form name="f" method="post" action="">
+	<input type="hidden" name="option" value="save_afo_fb_comment_settings" />
+	<table width="100%" border="0">
+	  <tr>
+		<td colspan="2"><h1>Facebook Comments Settings</h1></td>
+	  </tr>
+	  <tr>
+		<td><strong>Replace WP Comments</strong></td>
+		<td><input type="checkbox" name="replace_wp_comments" value="Yes" <?php echo $replace_wp_comments == 'Yes'?'checked="checked" ':'';?>/></td>
+	  </tr>
+	  <tr>
+	  	<td></td>
+		<td>Check this to automatically replace WordPress comments form to FB Comments.</td>
+	  </tr>
+	 <tr>
+		<td><strong>Color Scheme</strong></td>
+		<td><select name="fb_comments_color_scheme">
+			<?php echo $fb_comment_addon->get_color_scheme_selected($fb_comments_color_scheme);?>
+		</select>
+		</td>
+	  </tr>
+	   <tr>
+		<td><strong>Width</strong></td>
+		<td><input type="text" name="fb_comments_width" value="<?php echo $fb_comments_width;?>"/> In Percent (%)</td>
+	  </tr>
+	   <tr>
+		<td><strong>No of Comments</strong></td>
+		<td><input type="text" name="fb_comments_no" value="<?php echo $fb_comments_no;?>"/> Default is 10</td>
+	  </tr>
+	  <tr>
+		<td>&nbsp;</td>
+		<td><input type="submit" name="submit" value="Save" class="button button-primary button-large" /></td>
+	  </tr>
+	  <tr>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+	  </tr>
+	  <tr>
+		<td colspan="2">Use <span style="color:#000066;">[fb_comments]</span> shortcode to display Facebook Comments in post or page.<br />
+		 Example: <span style="color:#000066;">[fb_comments title="Comments"]</span>
+		 <br /> <br />
+		 Or else<br /> <br />
+		 You can use this function <span style="color:#000066;">fb_comments()</span> in your template to display the Facebook Comments. <br />
+		 Example: <span style="color:#000066;">&lt;?php fb_comments("Comments");?&gt;</span>
+		 </td>
+	  </tr>
+	</table>
+	</form>
+	<?php 
+	}
+	
 	function facebook_login_widget_afo_save_settings(){
 		if($_POST['option'] == "login_widget_afo_save_settings"){
 			update_option( 'afo_fb_app_id', $_POST['afo_fb_app_id'] );
@@ -94,7 +150,29 @@ class afo_fb_login {
 		add_options_page( 'FB Login Widget', 'FB Login Widget', 1, 'fb_login_widget_afo', array( $this, 'fb_login_widget_afo_options' ));
 	}
 	
-	function donate_form_facebook_login(){?>
+	function fb_login_pro_add(){ ?>
+	<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; padding:0px 0px 0px 10px; margin:2px;">
+  <tr>
+    <td><p>There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong> </p></td>
+  </tr>
+</table>
+	<?php }
+	
+	function fb_comment_addon_add(){ 
+		if ( !is_plugin_active( 'fb-comments-afo-addon/fb_comment.php' ) ) {
+	?>
+		<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; padding:0px 0px 0px 10px; margin:2px;">
+	  <tr>
+		<td><p>There is a <strong>Facebook Comments Addon</strong> for this plugin. The plugin replace the default <strong>Wordpress</strong> Comments module and enable <strong>Facebook</strong> Comments Module. You can get it <a href="http://aviplugins.com/fb-comments-addon/" target="_blank">here</a> in <strong>USD 1.00</strong> </p></td>
+	  </tr>
+	</table>
+	<?php 
+		}
+	}
+	
+	function donate_form_facebook_login(){
+		if ( !is_plugin_active( 'fb-comments-afo-addon/fb_comment.php' ) ) {
+	?>
 		<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; margin:2px;">
 		 <tr>
 		 <td align="right"><h3>Even $0.60 Can Make A Difference</h3></td>
@@ -109,5 +187,6 @@ class afo_fb_login {
 		  </tr>
 		</table>
 	<?php }
+	}
 }
 new afo_fb_login;

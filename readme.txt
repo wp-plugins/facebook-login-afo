@@ -1,10 +1,10 @@
 === Facebook Login Widget ===
 Contributors: avimegladon
-Donate link: http://donateafo.net84.net/
+Donate link: http://aviplugins.com/donate/
 Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login
 Requires at least: 2.0.2
 Tested up to: 3.8.1
-Stable tag: 1.0.2
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,9 @@ You need create a new facebook API Applitation to setup this plugin. Please foll
 * <strong>4.</strong> Then Click the "Create App" button and follow the instructions, your new app will be created. 
 * <strong>5.</strong> Copy and Paste "App ID" and "App Secret" here.
 * <strong>6.</strong> That's All. Have fun :)
+
+= Facebook Comments Add On =
+This Addon can be used to replace the default Wordpress Comments and insert a Facebook Comments System. You can get it <a href="http://aviplugins.com/fb-comments-afo-addon" target="_blank">here</a> in <strong>USD 1.00</strong>
 
 = Facebook Login Widget (PRO) =
 There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong>
@@ -60,6 +63,8 @@ There is a PRO version of this plugin that supports login with <strong>Facebook<
 
 == Changelog ==
 
+= 1.1.2 =
+* added css support.
 
 = 1.0.2 =
 * css issue solved.
