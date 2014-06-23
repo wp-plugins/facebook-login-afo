@@ -26,7 +26,7 @@ You need create a new facebook API Applitation to setup this plugin. Please foll
 * <strong>6.</strong> That's All. Have fun :)
 
 = Facebook Comments Add On =
-This Addon can be used to replace the default Wordpress Comments and insert a Facebook Comments System. You can get it <a href="http://aviplugins.com/fb-comments-afo-addon" target="_blank">here</a> in <strong>USD 1.00</strong>
+This Addon can be used to replace the default Wordpress Comments and insert a Facebook Comments System. The addon supports comments in different languages. Language can be selected from settings page. You can get it <a href="http://aviplugins.com/fb-comments-afo-addon" target="_blank">here</a> in <strong>USD 1.00</strong>
 
 = Facebook Login Widget (PRO) =
 There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong> And <strong>Twitter</strong>. You can get it <a href="http://aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 1.00</strong>
@@ -59,6 +59,7 @@ There is a PRO version of this plugin that supports login with <strong>Facebook<
 
 1. front end widget view
 2. settings page view
+3. facebook comments addon view
 
 
 == Changelog ==
