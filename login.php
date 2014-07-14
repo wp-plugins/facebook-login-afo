@@ -82,26 +82,20 @@ class afo_fb_login {
 	function fb_comment_plugin_addon_options(){
 	global $wpdb;
 	$fb_comment_addon = new afo_fb_comment_settings;
-	$replace_wp_comments = get_option('replace_wp_comments');
 	$fb_comments_color_scheme = get_option('fb_comments_color_scheme');
 	$fb_comments_width = get_option('fb_comments_width');
 	$fb_comments_no = get_option('fb_comments_no');
-
 	?>
 	<form name="f" method="post" action="">
 	<input type="hidden" name="option" value="save_afo_fb_comment_settings" />
-	<table width="100%" border="0">
+	<table width="100%" border="0" style="background-color:#FFFFFF; margin-top:20px; width:98%; padding:5px; border:1px solid #999999; ">
 	  <tr>
-		<td colspan="2"><h1>Facebook Comments Settings</h1></td>
+		<td colspan="2"><h1>Social Comments Settings</h1></td>
 	  </tr>
 	  <?php do_action('fb_comments_settings_top');?>
-	  <tr>
-		<td><strong>Replace WP Comments</strong></td>
-		<td><input type="checkbox" name="replace_wp_comments" value="Yes" <?php echo $replace_wp_comments == 'Yes'?'checked="checked" ':'';?>/></td>
-	  </tr>
-	  <tr>
-	  	<td></td>
-		<td>Check this to automatically replace WordPress comments form to FB Comments.</td>
+	   <tr>
+		<td><h3>Facebook Comments</h3></td>
+		<td></td>
 	  </tr>
 	   <tr>
 		<td><strong>Language</strong></td>
@@ -136,12 +130,12 @@ class afo_fb_login {
 		<td>&nbsp;</td>
 	  </tr>
 	  <tr>
-		<td colspan="2">Use <span style="color:#000066;">[fb_comments]</span> shortcode to display Facebook Comments in post or page.<br />
-		 Example: <span style="color:#000066;">[fb_comments title="Comments"]</span>
+		<td colspan="2">Use <span style="color:#000066;">[social_comments]</span> shortcode to display Facebook / Disqus Comments in post or page.<br />
+		 Example: <span style="color:#000066;">[social_comments title="Comments"]</span>
 		 <br /> <br />
 		 Or else<br /> <br />
-		 You can use this function <span style="color:#000066;">fb_comments()</span> in your template to display the Facebook Comments. <br />
-		 Example: <span style="color:#000066;">&lt;?php fb_comments("Comments");?&gt;</span>
+		 You can use this function <span style="color:#000066;">social_comments()</span> in your template to display the Facebook Comments. <br />
+		 Example: <span style="color:#000066;">&lt;?php social_comments("Comments");?&gt;</span>
 		 </td>
 	  </tr>
 	</table>
