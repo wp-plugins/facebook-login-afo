@@ -33,13 +33,12 @@ There is a PRO version of this plugin that supports login with <strong>Facebook<
 * Use Shortcode to display login form in post or page.
 * Easy css implementation from admin panel.
 
-= Facebook Comments Add On =
-This Addon can be used to replace the default Wordpress Comments and insert a Facebook / Disqus Comments System. The addon supports comments in different languages. Language can be selected from settings page. You can get it <a href="http://aviplugins.com/fb-comments-afo-addon" target="_blank">here</a> in <strong>USD 1.00</strong>
+= Facebook Comments Extension =
+This Addon can be used to replace the default Wordpress Comments and insert a Facebook / Disqus Comments system to your site. You can get it <a href="http://aviplugins.com/fb-comments-afo-addon" target="_blank">here</a> in <strong>USD 1.00</strong>
 
-1. Facebook Comments.
-2. Disqus Comments.
-3. Globally turn off comments on pages.
-4. Globally turn off comments on posts.
+* Facebook comments.
+* Disqus comments.
+* Globally turn off comments.
 
 == Installation ==
 
