@@ -167,7 +167,7 @@ class afo_fb_login {
 	?>
 		<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; padding:0px 0px 0px 10px; margin:2px;">
 	  <tr>
-		<td><p>There is a <strong>Facebook Comments Addon</strong> for this plugin. The plugin replace the default <strong>Wordpress</strong> Comments module and enable <strong>Facebook</strong> Comments Module. You can get it <a href="http://aviplugins.com/fb-comments-addon/" target="_blank">here</a> in <strong>USD 1.00</strong> </p></td>
+		<td><p>There is a <strong>Facebook Comments Addon</strong> for this plugin. The plugin replace the default <strong>Wordpress</strong> Comments module and enable <strong>Facebook</strong>/<strong>Disqus</strong> Comments Module. You can get it <a href="http://aviplugins.com/fb-comments-addon/" target="_blank">here</a> in <strong>USD 1.00</strong> </p></td>
 	  </tr>
 	</table>
 	<?php 
