@@ -54,7 +54,7 @@ Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a Cus
 5. Now visit your site and you will see the login form section.
 
 = Get Quote =
-Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a Custom Plugin, for Customizing a Plugin and for customizing wordpress themes.
+Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a Custom Plugin, for Customizing a Plugin and for customizing wordpress theme functionality.
 
 
 == Frequently Asked Questions ==
