@@ -40,6 +40,7 @@ This Addon can be used to replace the default Wordpress Comments and insert a Fa
 * Disqus comments.
 * Globally turn off comments.
 
+
 > Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a <strong>Custom</strong> Plugin.
 
 == Installation ==
