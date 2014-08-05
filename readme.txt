@@ -41,7 +41,7 @@ This Addon can be used to replace the default Wordpress Comments and insert a Fa
 * Globally turn off comments.
 
 
-> Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a <strong>Custom</strong> Plugin.
+> Get a <a href="http://aviplugins.com/get-quote.php">quote</a> for creating a <strong>Custom</strong> Plugin or <a href="http://aviplugins.com/all.php">view all</a> plugins.
 
 == Installation ==
 
