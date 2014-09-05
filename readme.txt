@@ -56,8 +56,7 @@ This Addon can be used to replace the default Wordpress Comments and insert a Fa
 
 = For any kind of problem =
 
-1. Please email me avi.megladon@gmail.com. My site is http://avifoujdar.wordpress.com/contact/ 
-2. Or you can write comments directly to my plugins page. Please visit here http://avifoujdar.wordpress.com/2014/02/13/login-widget/
+1. Please email me at demoforafo@gmail.com for any queries or Contact me here http://aviplugins.com/contact.php
 
 == Screenshots ==
 
