@@ -1,7 +1,7 @@
 === Facebook Login Widget ===
 Contributors: avimegladon
 Donate link: http://aviplugins.com/donate/
-Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login
+Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login, login widget
 Requires at least: 2.0.2
 Tested up to: 3.8.1
 Stable tag: 1.2.2
