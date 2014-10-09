@@ -130,6 +130,7 @@ function fb_login_validate(){
 				$_SESSION['msg_class'] = 'error_wid_login';
 				$_SESSION['msg'] = 'Error in login!';
 			} else{
+				wp_set_auth_cookie($user->ID);
 				wp_redirect( site_url() );
 				exit;
 			}
