@@ -56,7 +56,7 @@ This Addon can be used to replace the default Wordpress Comments and insert a Fa
 
 = For any kind of problem =
 
-1. Please email me at demoforafo@gmail.com for any queries or Contact me here http://aviplugins.com/contact.php
+1. Please email me at demoforafo@gmail.com for any queries or Contact me here http://aviplugins.com/support.php
 
 == Screenshots ==
 
