@@ -3,7 +3,7 @@
 Plugin Name: Facebook Login Widget
 Plugin URI: http://avifoujdar.wordpress.com/category/my-wp-plugins/
 Description: This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
-Version: 1.2.2
+Version: 2.0.0
 Author: avimegladon
 Author URI: http://avifoujdar.wordpress.com/
 */
@@ -23,6 +23,7 @@ class afo_fb_login {
 	function __construct() {
 		add_action( 'admin_menu', array( $this, 'facebook_login_widget_afo_menu' ) );
 		add_action( 'admin_init',  array( $this, 'facebook_login_widget_afo_save_settings' ) );
+		add_action( 'plugins_loaded',  array( $this, 'fb_login_widget_text_domain' ) );
 	}
 	
 	function  fb_login_widget_afo_options () {
@@ -61,6 +62,10 @@ class afo_fb_login {
 		</table>
 		</form>
 		<?php 
+	}
+	
+	function fb_login_widget_text_domain(){
+		load_plugin_textdomain('flw', FALSE, basename( dirname( __FILE__ ) ) .'/languages');
 	}
 	
 	function fb_login_help(){ ?>

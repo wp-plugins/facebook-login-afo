@@ -4,7 +4,7 @@ Donate link: http://aviplugins.com/donate/
 Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login, login widget
 Requires at least: 2.0.2
 Tested up to: 3.8.1
-Stable tag: 1.2.2
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,8 @@ This Addon can be used to replace the default Wordpress Comments and insert Face
 4. Go to `Appearance->Widgets` ,in available widgets you will find `FB Login Widget AFO` widget, drag it to chosen widget area where you want it to appear.
 5. Now visit your site and you will see the login form section.
 
+* If you want to translate the plugin in your language please translate the sample .PO file and mail me the the file at demoforafo@gmail.com and I will include that in the language file. Sample .PO file can be downloaded from <a href="http://aviplugins.com/language-sample/flw-es_ES.po">here</a>
+
 == Frequently Asked Questions ==
 
 = For any kind of problem =
@@ -67,6 +69,10 @@ This Addon can be used to replace the default Wordpress Comments and insert Face
 
 
 == Changelog ==
+
+
+= 2.0.0 =
+* The plugin is now multilingual.
 
 = 1.2.2 =
 * admin menu related bug fixed.
