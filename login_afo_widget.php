@@ -103,7 +103,7 @@ function FBLogin(){
 	}
 	
 	public function error_message(){
-		if($_SESSION['msg']){
+		if(isset($_SESSION['msg']) and $_SESSION['msg']){
 			echo '<div class="'.$_SESSION['msg_class'].'">'.$_SESSION['msg'].'</div>';
 			unset($_SESSION['msg']);
 			unset($_SESSION['msg_class']);
@@ -117,7 +117,7 @@ function FBLogin(){
 } 
 
 function fb_login_validate(){
-	if($_POST['option'] == "afo_user_login"){
+	if(isset($_POST['option']) and $_POST['option'] == "afo_user_login"){
 		global $post;
 		if($_POST['user_username'] != "" and $_POST['user_password'] != ""){
 			$creds = array();
@@ -142,7 +142,7 @@ function fb_login_validate(){
 	}
 	
 	
-	if($_REQUEST['option'] == "fblogin"){
+	if(isset($_REQUEST['option']) and $_REQUEST['option'] == "fblogin"){
 		global $wpdb;
 		$appid 		= get_option('afo_fb_app_id');
 		$appsecret  = get_option('afo_fb_app_secret');
