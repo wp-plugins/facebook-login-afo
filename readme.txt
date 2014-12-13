@@ -26,7 +26,7 @@ You need create a new facebook API Applitation to setup this plugin. Please foll
 * <strong>6.</strong> That's All. Have fun :)
 
 = Facebook Login Widget (PRO) =
-There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>,  <strong>Twitter</strong> and <strong>LinkedIn</strong>. You can get it <a href="http://aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 4.00</strong>
+There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>,  <strong>Twitter</strong> and <strong>LinkedIn</strong>. You can get it <a href="http://aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 3.00</strong>
 <a href="http://aviplugins.com/demo/login/" target="_blank">Click here for live demo</a>
 
 * The PRO version also comes with a content restriction Addon. Content of Pages and Posts can be hidden from visitors of your site.
