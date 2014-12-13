@@ -3,7 +3,7 @@
 Plugin Name: Facebook Login Widget
 Plugin URI: http://avifoujdar.wordpress.com/category/my-wp-plugins/
 Description: This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
-Version: 2.1.0
+Version: 2.2.0
 Author: avimegladon
 Author URI: http://avifoujdar.wordpress.com/
 */
@@ -34,10 +34,11 @@ class afo_fb_login {
 		$this->donate_form_facebook_login();
 		$this->fb_comment_addon_add();
 		$this->fb_login_pro_add();
+		$this->help_support();
 		?>
 		<form name="f" method="post" action="">
 		<input type="hidden" name="option" value="login_widget_afo_save_settings" />
-		<table width="100%" border="0"> 
+		<table width="98%" border="0" style="background-color:#FFFFFF; border:1px solid #CCCCCC; padding:0px 0px 0px 10px; margin:2px;">
 		  <tr>
 			<td width="45%"><h1>Facebook Login Widget</h1></td>
 			<td width="55%">&nbsp;</td>
@@ -157,6 +158,15 @@ class afo_fb_login {
 	
 	function facebook_login_widget_afo_menu () {
 		add_options_page( 'FB Login Widget', 'FB Login Widget', 'activate_plugins', 'fb_login_widget_afo', array( $this, 'fb_login_widget_afo_options' ));
+	}
+	
+	function help_support(){ ?>
+	<table width="98%" border="0" style="background-color:#FFFFFF; border:1px solid #CCCCCC; padding:0px 0px 0px 10px; margin:2px;">
+	  <tr>
+		<td align="right"><a href="http://aviplugins.com/support.php" target="_blank">Help and Support</a></td>
+	  </tr>
+	</table>
+	<?php
 	}
 	
 	function fb_login_pro_add(){ ?>
