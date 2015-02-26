@@ -33,6 +33,7 @@ There is a PRO version of this plugin that supports login with <strong>Facebook<
 * Content Restriction can be applied from post edit page.
 * Use Shortcode to display login form in post or page.
 * Manage Forgot Password Email Body.
+* Update welcome text "Howdy" from plugin settings section.
 * Easy css implementation from admin panel.
 
 = Facebook Comments Extension =
