@@ -1,7 +1,7 @@
 === Facebook Login Widget ===
 Contributors: avimegladon
 Donate link: http://aviplugins.com/donate/
-Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login, login widget
+Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login, login widget, social login, facebook register, social user registration, user registration
 Requires at least: 2.0.2
 Tested up to: 4.2.1
 Stable tag: 2.2.0
@@ -18,7 +18,7 @@ This is a facebook login plugin as widget. This widget also supports default wor
 
 You need create a new facebook API Applitation to setup this plugin. Please follow the instructions provided below.
 			
-*  <strong>1.</strong> Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a>
+* <strong>1.</strong> Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a>
 * <strong>2.</strong> Click on Create a new app button. A popup will open.
 * <strong>3.</strong> Add the required informations and don't forget to make your app live. This is very important otherwise your app will not work for all users.
 * <strong>4.</strong> Then Click the "Create App" button and follow the instructions, your new app will be created. 
