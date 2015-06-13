@@ -72,6 +72,9 @@ This Addon can be used to replace the default Wordpress Comments and insert Face
 
 == Changelog ==
 
+= 2.2.1 =
+* Support for Microsoft Account Login Addon
+
 = 2.2.0 =
 * Help and Support link added.
 

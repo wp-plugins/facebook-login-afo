@@ -41,6 +41,14 @@ class fb_login_wid extends WP_Widget {
 		<?php 
 	}
 	
+	public function social_logins(){ 
+	?>
+	 	<font size="+1" style="vertical-align:top;"><?php _e('Login with','flp');?> </font>
+		<a href="javascript:void(0)" onClick="FBLogin();"><img src="<?php echo plugins_url( 'facebook.png' , __FILE__ );?>" alt="<?php _e('Fb Connect','flw');?>" title="<?php _e('Login with facebook','flw');?>" /></a>&nbsp;
+        <?php do_action( 'additional_logins_afo' ); ?>
+	<?php
+	}
+	
 	public function loginForm(){
 		global $post;
 		$this->error_message();
@@ -56,7 +64,7 @@ class fb_login_wid extends WP_Widget {
 			<li><?php _e('Password','flw');?></li>
 			<li><input type="password" name="user_password" required="required"/></li>
 			<li><input name="login" type="submit" value="<?php _e('Login','flw');?>" /></li>
-			<li><font size="+1" style="vertical-align:top;"><?php _e('Login with','flw');?> </font> <a href="javascript:void(0)" onClick="FBLogin();"><img src="<?php echo plugins_url( 'facebook.png' , __FILE__ );?>" alt="<?php _e('Fb Connect','flw');?>" title="<?php _e('Login with facebook','flw');?>" /></a></li>
+			<li class="afo_social_login"><?php $this->social_logins();?></li>
 			</ul>
 		</form>
 		<?php 
