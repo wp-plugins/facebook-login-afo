@@ -1,10 +1,10 @@
 === Facebook Login Widget ===
 Contributors: avimegladon
-Donate link: http://aviplugins.com/donate/
+Donate link: http://www.aviplugins.com/donate/
 Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login, login widget, social login, facebook register, social user registration, user registration
 Requires at least: 2.0.2
 Tested up to: 4.2.2
-Stable tag: 2.2.0
+Stable tag: 2.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,8 +26,8 @@ You need create a new facebook API Applitation to setup this plugin. Please foll
 * <strong>6.</strong> That's All. Have fun :)
 
 = Facebook Login Widget (PRO) =
-There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>,  <strong>Twitter</strong> and <strong>LinkedIn</strong>. You can get it <a href="http://aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 3.00</strong>
-<a href="http://aviplugins.com/demo/login/" target="_blank">Click here for Live Demo</a>
+There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>,  <strong>Twitter</strong> and <strong>LinkedIn</strong>. You can get it <a href="http://www.aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 3.00</strong>
+<a href="http://www.aviplugins.com/demo/login/" target="_blank">Click here for Live Demo</a>
 
 * The PRO version also comes with a content restriction Addon. Content of Pages and Posts can be hidden from visitors of your site.
 * Content Restriction can be applied from post edit page.
@@ -38,13 +38,13 @@ There is a PRO version of this plugin that supports login with <strong>Facebook<
 * Easy css implementation from admin panel.
 
 = Facebook Comments Extension =
-This Addon can be used to replace the default Wordpress Comments and insert Facebook / Disqus Comments system to your site. You can get it <a href="http://aviplugins.com/fb-comments-afo-addon" target="_blank">here</a> in <strong>USD 1.00</strong>
+This Addon can be used to replace the default Wordpress Comments and insert Facebook / Disqus Comments system to your site. You can get it <a href="http://www.aviplugins.com/fb-comments-afo-addon" target="_blank">here</a> in <strong>USD 1.00</strong>
 
 * Facebook comments.
 * Disqus comments.
 * Globally turn off comments.
 
-> Checkout other plugins <a href="http://aviplugins.com/wp-register-profile-pro/">WP Register Profile</a>, <a href="http://aviplugins.com/custom-post-type-attachment-pro/">Post Type Attachment</a>, <a href="http://aviplugins.com/contact-form-with-shortcode-pro/">Newsletter Subscription</a>, <a href="http://aviplugins.com/wp-support-pro/">WP Support (PRO)</a>.
+> Checkout other plugins <a href="http://www.aviplugins.com/wp-register-profile-pro/">WP Register Profile</a>, <a href="http://www.aviplugins.com/custom-post-type-attachment-pro/">Post Type Attachment</a>, <a href="http://www.aviplugins.com/contact-form-with-shortcode-pro/">Newsletter Subscription</a>, <a href="http://www.aviplugins.com/wp-support-pro/">WP Support (PRO)</a>.
 
 == Installation ==
 
@@ -55,13 +55,13 @@ This Addon can be used to replace the default Wordpress Comments and insert Face
 4. Go to `Appearance->Widgets` ,in available widgets you will find `FB Login Widget AFO` widget, drag it to chosen widget area where you want it to appear.
 5. Now visit your site and you will see the login form section.
 
-* If you want to translate the plugin in your language please translate the sample .PO file and mail me the the file at demoforafo@gmail.com and I will include that in the language file. Sample .PO file can be downloaded from <a href="http://aviplugins.com/language-sample/flw-es_ES.po">here</a>
+* If you want to translate the plugin in your language please translate the sample .PO file and mail me the the file at demoforafo@gmail.com and I will include that in the language file. Sample .PO file can be downloaded from <a href="http://www.aviplugins.com/language-sample/flw-es_ES.po">here</a>
 
 == Frequently Asked Questions ==
 
 = For any kind of problem =
 
-1. Please email me at demoforafo@gmail.com for any queries or Contact me here http://aviplugins.com/support.php
+1. Please email me at demoforafo@gmail.com for any queries or Contact me here http://www.aviplugins.com/support.php
 
 == Screenshots ==
 
@@ -72,10 +72,10 @@ This Addon can be used to replace the default Wordpress Comments and insert Face
 
 == Changelog ==
 
-= 2.2.1 =
-* Support for Microsoft Account Login Addon
+= 2.2.2 =
+* Login form structure dpdated, now with fully responsive login form.
 
-= 2.2.0 =
+= 2.2.1 =
 * Help and Support link added.
 
 = 2.1.0 =

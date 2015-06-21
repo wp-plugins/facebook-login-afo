@@ -41,32 +41,30 @@ class fb_login_wid extends WP_Widget {
 		<?php 
 	}
 	
-	public function social_logins(){ 
-	?>
-	 	<font size="+1" style="vertical-align:top;"><?php _e('Login with','flp');?> </font>
-		<a href="javascript:void(0)" onClick="FBLogin();"><img src="<?php echo plugins_url( 'facebook.png' , __FILE__ );?>" alt="<?php _e('Fb Connect','flw');?>" title="<?php _e('Login with facebook','flw');?>" /></a>&nbsp;
-        <?php do_action( 'additional_logins_afo' ); ?>
-	<?php
-	}
-	
 	public function loginForm(){
 		global $post;
 		$this->error_message();
 		$this->LoadScript();
 		if(!is_user_logged_in()){
 		?>
+		<div id="log_forms">
 		<form name="login" id="login" method="post" action="">
 		<input type="hidden" name="option" value="afo_user_login" />
 		<input type="hidden" name="redirect" value="<?php echo $redirect; ?>" />
-			<ul class="login_wid">
-			<li><?php _e('Username','flw');?></li>
-			<li><input type="text" name="user_username" required="required"/></li>
-			<li><?php _e('Password','flw');?></li>
-			<li><input type="password" name="user_password" required="required"/></li>
-			<li><input name="login" type="submit" value="<?php _e('Login','flw');?>" /></li>
-			<li class="afo_social_login"><?php $this->social_logins();?></li>
-			</ul>
+		<div class="form-group">
+			<label for="username"><?php _e('Username','lwa');?> </label>
+			<input type="text" name="user_username" required="required"/>
+		</div>
+		<div class="form-group">
+			<label for="password"><?php _e('Password','lwa');?> </label>
+			<input type="password" name="user_password" required="required"/>
+		</div>
+		<div class="form-group"><label for="login">&nbsp;</label><input name="login" type="submit" value="<?php _e('Login','lwa');?>" /></div>
+		<div class="form-group">
+			<font size="+1" style="vertical-align:top;"><?php _e('Login with','flw');?> </font> <a href="javascript:void(0)" onClick="FBLogin();"><img src="<?php echo plugins_url( 'facebook.png' , __FILE__ );?>" alt="<?php _e('Fb Connect','flw');?>" title="<?php _e('Login with facebook','flw');?>" /></a>
+		</div>
 		</form>
+		</div>
 		<?php 
 		} else {
 		global $current_user;

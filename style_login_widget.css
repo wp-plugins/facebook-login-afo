@@ -10,31 +10,41 @@
 	clear:both !important;
 }
 
-.login_wid li{
-	margin:5px;
+
+input[type=text],input[type=password]{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:100%;
+	padding: 15px;
+	border:1px solid #E3E3E3;
+}
+input[type=submit]
+{
+	margin-bottom: 20px;
+	width:100%;
+	padding: 15px;
+	border:1px solid #7ac9b7;
+	background-color: #4180C5;
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+}
+#submit:hover
+{
+ background-color: black;
+}
+textarea{
+	width:100%;
+	padding: 15px;
+	margin-top: 10px;
+    border:1px solid #7ac9b7;
+	margin-bottom: 20px;
+	resize:none;
+  } 
+input[type=text]:focus,input[type=password]:focus,textarea:focus {
+	border-color: #4697e4;
 }
 
-.login_wid{
-		list-style-type:none;
-		border: 1px dashed #999999;
-		width:98%;
-		float:left;
-		padding:5%;
-
-	}
-	.login_wid li{
-		width:48%;
-		float:left;
-		margin:2px;
-	}
-	.afo_social_login{
-		padding:5px 0px 0px 0px;
-		clear:both;
-		width:100% !important;
-	}
-	
-	.login_wid li input{
-		width:85%;
-		float:left;
-		margin:2px;
-	}
+ul.login_wid {
+	list-style-type:none;
+}

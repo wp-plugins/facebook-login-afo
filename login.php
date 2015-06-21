@@ -3,7 +3,7 @@
 Plugin Name: Facebook Login Widget
 Plugin URI: http://avifoujdar.wordpress.com/category/my-wp-plugins/
 Description: This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
-Version: 2.2.1
+Version: 2.2.2
 Author: avimegladon
 Author URI: http://avifoujdar.wordpress.com/
 */
@@ -163,7 +163,7 @@ class afo_fb_login {
 	function help_support(){ ?>
 	<table width="98%" border="0" style="background-color:#FFFFFF; border:1px solid #CCCCCC; padding:0px 0px 0px 10px; margin:2px;">
 	  <tr>
-		<td align="right"><a href="http://aviplugins.com/support.php" target="_blank">Help and Support</a></td>
+		<td align="right"><a href="http://www.aviplugins.com/support.php" target="_blank">Help and Support</a></td>
 	  </tr>
 	</table>
 	<?php
@@ -172,7 +172,7 @@ class afo_fb_login {
 	function fb_login_pro_add(){ ?>
 	<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; padding:0px 0px 0px 10px; margin:2px;">
   <tr>
-    <td><p>There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>,  <strong>Twitter</strong> and <strong>LinkedIn</strong>. You can get it <a href="http://aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 3.00</strong> </p></td>
+    <td><p>There is a PRO version of this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>,  <strong>Twitter</strong> and <strong>LinkedIn</strong>. You can get it <a href="http://www.aviplugins.com/fb-login-widget-pro/" target="_blank">here</a> in <strong>USD 3.00</strong> </p></td>
   </tr>
 </table>
 	<?php }
