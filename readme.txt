@@ -4,7 +4,7 @@ Donate link: http://www.aviplugins.com/donate/
 Tags: facebook, fb, login form, facebook login, facebook widget, facebook login widget, fb widget login, fb sidebar login, facebook login form, fb user login, facebook authentication, twitter, twitter login, social login, google, google login, sidebar login, widget login, wordpress login, widget, shortcode, shortcode login, login widget, social login, facebook register, social user registration, user registration
 Requires at least: 2.0.2
 Tested up to: 4.2.2
-Stable tag: 2.2.3
+Stable tag: 2.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,6 +71,9 @@ This Addon can be used to replace the default Wordpress Comments and insert Face
 
 
 == Changelog ==
+
+= 2.2.4 =
+* Support for <a href="http://www.aviplugins.com/microsoft-login-addon/" target="_blank">Microsoft Login Addon</a> added.
 
 = 2.2.3 =
 * aviplugins.com new dashboard widget added.

@@ -3,7 +3,7 @@
 Plugin Name: Facebook Login Widget
 Plugin URI: http://avifoujdar.wordpress.com/category/my-wp-plugins/
 Description: This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
-Version: 2.2.3
+Version: 2.2.4
 Author: avimegladon
 Author URI: http://avifoujdar.wordpress.com/
 */
@@ -56,6 +56,9 @@ class afo_fb_login {
 			<td>&nbsp;</td>
 			<td><input type="submit" name="submit" value="Save" class="button button-primary button-large" /></td>
 		  </tr>
+          <tr>
+			<td colspan="2"><p>Click here to get <a href="http://www.aviplugins.com/microsoft-login-addon/" target="_blank">Microsoft Login Addon</a></p><hr></td>
+		  </tr>
 		  <tr>
 			<td colspan="2"><?php $this->fb_login_help();?></td>
 
@@ -81,8 +84,7 @@ class afo_fb_login {
 			  <strong>4.</strong> Then Click the "Create App" button and follow the instructions, your new app will be created. <br /><br />
 			  <strong>5.</strong> Copy and Paste "App ID" and "App Secret" here. <br /><br />
 			  <strong>6.</strong> That's All. Have fun :)
-			  </p>
-			  
+			  </p>			  
 	<?php }
 	
 	function fb_comment_plugin_addon_options(){
