@@ -1,0 +1,50 @@
+.error_wid_login {
+    background-color: #FFEBE8;
+    border: 1px dashed #FF0000;
+    color: #FF0000;
+    float: left;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: 500;
+    padding: 6px;
+    width: 97%;
+	clear:both !important;
+}
+
+
+input[type=text],input[type=password]{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width:100%;
+	padding: 15px;
+	border:1px solid #E3E3E3;
+}
+input[type=submit]
+{
+	margin-bottom: 20px;
+	width:100%;
+	padding: 15px;
+	border:1px solid #7ac9b7;
+	background-color: #4180C5;
+	color: aliceblue;
+	font-size:15px;
+	cursor:pointer;
+}
+#submit:hover
+{
+ background-color: black;
+}
+textarea{
+	width:100%;
+	padding: 15px;
+	margin-top: 10px;
+    border:1px solid #7ac9b7;
+	margin-bottom: 20px;
+	resize:none;
+  } 
+input[type=text]:focus,input[type=password]:focus,textarea:focus {
+	border-color: #4697e4;
+}
+
+ul.login_wid {
+	list-style-type:none;
+}
