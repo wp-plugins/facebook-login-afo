@@ -176,6 +176,10 @@ function fb_login_validate(){
 			$user_fbid	= $fbuser;
 			$user_email = $user_profile["email"];
 			$user_fnmae = $user_profile["first_name"];
+			
+			if($user_email == ''){
+				$user_email = $user_fbid.'@facebook.com';
+			}
   
 		  if( email_exists( $user_email )) { // user is a member 
 			  $user = get_user_by('login', $user_email );
@@ -183,7 +187,13 @@ function fb_login_validate(){
 			  wp_set_auth_cookie( $user_id, true );
 		   } else { // this user is a guest
 			  $random_password = wp_generate_password( 10, false );
-			  $user_id = wp_create_user( $user_email, $random_password, $user_email );
+			  $newuserdata = array(
+				'user_login' => $user_email,
+				'user_email' => $user_email,
+				'display_name' => $user_fnmae,
+				'user_pass' => $random_password
+			  );
+			  $user_id = wp_insert_user( $newuserdata );
 			  wp_set_auth_cookie( $user_id, true );
 		   }
 		   

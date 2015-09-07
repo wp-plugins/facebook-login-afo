@@ -1,4 +1,7 @@
 <?php
+if(!session_id()){
+	session_start();
+}
 
 add_action( 'wp_dashboard_setup', 'afo_news_dashboard_widget' );
 

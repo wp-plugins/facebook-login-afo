@@ -3,7 +3,7 @@
 Plugin Name: Facebook Login Widget
 Plugin URI: http://avifoujdar.wordpress.com/category/my-wp-plugins/
 Description: This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
-Version: 2.2.4
+Version: 3.0.0
 Author: avimegladon
 Author URI: http://avifoujdar.wordpress.com/
 */
@@ -34,6 +34,7 @@ class afo_fb_login {
 		$this->donate_form_facebook_login();
 		$this->fb_comment_addon_add();
 		$this->fb_login_pro_add();
+		$this->social_login_no_setup_add();
 		$this->help_support();
 		?>
 		<form name="f" method="post" action="">
@@ -178,6 +179,15 @@ class afo_fb_login {
   </tr>
 </table>
 	<?php }
+	
+	function social_login_no_setup_add(){ ?>
+	<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; padding:0px 0px 0px 10px; margin:2px;">
+  <tr>
+    <td><p>There is another version available for this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>, <strong>Twitter</strong> and <strong>LinkedIn</strong> accounts and it requires no Setups, no Maintanance, no need to create any APPs, APIs, Client Ids, Client Secrets or anything. You Just have to install the plugin. <a rel="nofollow" href="http://www.aviplugins.com/social-login-no-setup/">Click here for details</a> | <a rel="nofollow" href="http://aviplugins.com/demo/social-login/">Click here for <strong>Demo</strong></a></p></td>
+  </tr>
+</table>
+	<?php }
+	
 	
 	function fb_comment_addon_add(){ 
 		if ( !is_plugin_active( 'fb-comments-afo-addon/fb_comment.php' ) ) {
