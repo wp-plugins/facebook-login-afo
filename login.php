@@ -183,7 +183,7 @@ class afo_fb_login {
 	function social_login_no_setup_add(){ ?>
 	<table width="98%" border="0" style="background-color:#FFFFD2; border:1px solid #E6DB55; padding:0px 0px 0px 10px; margin:2px;">
   <tr>
-    <td><p>There is another version available for this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>, <strong>Twitter</strong> and <strong>LinkedIn</strong> accounts and it requires no Setups, no Maintanance, no need to create any APPs, APIs, Client Ids, Client Secrets or anything. You Just have to install the plugin. <a rel="nofollow" href="http://www.aviplugins.com/social-login-no-setup/">Click here for details</a> | <a rel="nofollow" href="http://aviplugins.com/demo/social-login/">Click here for <strong>Demo</strong></a></p></td>
+    <td><p>Check out the <strong>Social Login No Setup</strong> plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>,  <strong>Twitter</strong> and <strong>LinkedIn</strong>. It requires no Setups, no Maintanance, no need to create any APPs, APIs, Client Ids, Client Secrets or anything. You Just have to install the plugin. <a href="http://www.aviplugins.com/social-login-no-setup/" target="_blank">Click here for details</a>.</p></td>
   </tr>
 </table>
 	<?php }
