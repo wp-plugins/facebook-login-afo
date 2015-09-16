@@ -3,7 +3,7 @@
 Plugin Name: Facebook Login Widget
 Plugin URI: http://avifoujdar.wordpress.com/category/my-wp-plugins/
 Description: This is a facebook login plugin as widget. This widget also supports default wordpress user login. 
-Version: 3.0.0
+Version: 3.0.1
 Author: avimegladon
 Author URI: http://avifoujdar.wordpress.com/
 */
