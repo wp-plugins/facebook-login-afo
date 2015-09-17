@@ -31,10 +31,10 @@ class afo_fb_login {
 		$afo_fb_app_id = get_option('afo_fb_app_id');
 		$afo_fb_app_secret = get_option('afo_fb_app_secret');
 		
-		$this->donate_form_facebook_login();
+		//$this->donate_form_facebook_login();
 		$this->fb_comment_addon_add();
 		$this->fb_login_pro_add();
-		$this->social_login_no_setup_add();
+		
 		$this->help_support();
 		?>
 		<form name="f" method="post" action="">
@@ -67,6 +67,7 @@ class afo_fb_login {
 		</table>
 		</form>
 		<?php 
+		$this->social_login_no_setup_add();
 	}
 	
 	function fb_login_widget_text_domain(){
