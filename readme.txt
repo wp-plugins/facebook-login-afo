@@ -44,7 +44,7 @@ This Addon can be used to replace the default Wordpress Comments and insert Face
 * Disqus comments.
 * Globally turn off comments.
 
-> There is another version available for this plugin that supports login with <strong>Facebook</strong>, <strong>Google</strong>, <strong>Twitter</strong> and <strong>LinkedIn</strong> accounts and it requires no Setups, no Maintanance, no need to create any APPs, APIs, Client Ids, Client Secrets or anything. You Just have to install the plugin. <a href="http://www.aviplugins.com/social-login-no-setup/" target="_blank">Click here for details</a> | <a href="http://aviplugins.com/demo/social-login/" target="_blank">Click here for Live Demo</a>
+> Checkout <strong>Social Login No Setup</strong> that supports login with <strong>Facebook</strong>, <strong>Google</strong>, <strong>Twitter</strong>, <strong>LinkedIn</strong> and <strong>Microsoft</strong> accounts and the most important part is that it requires no Setups, no Maintanance, no need to create any APPs, APIs, Client Ids, Client Secrets or anything. <a href="http://www.aviplugins.com/social-login-no-setup/" target="_blank">Click here for details</a> | <a href="http://aviplugins.com/demo/social-login/" target="_blank">Click here for Live Demo</a>
 
 == Installation ==
 
